@@ -1,0 +1,30 @@
+@use "./typography" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inria Serif";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+textarea {
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+ul {
+  list-style: none;
+}

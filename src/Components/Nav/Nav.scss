@@ -1,0 +1,71 @@
+@use "../../Styles/variables" as *;
+@use "../../Styles/mixins" as *;
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 20px;
+  @include Tablet {
+    padding: 20px 50px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: 600;
+    font-size: 1.5rem;
+  }
+  &__logo {
+    height: 30px;
+  }
+  &__button {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: $primary-font;
+
+    @include Desktop {
+      display: none;
+    }
+
+    &--menu {
+      width: 100%;
+    }
+
+    &-connect {
+      display: none;
+      @include Desktop {
+        @include Button;
+      }
+    }
+  }
+  &__list {
+    display: none;
+
+    @include Desktop {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    &-item {
+      color: $white;
+      font-size: 1.125rem;
+    }
+  }
+}
