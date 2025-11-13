@@ -1,8 +1,7 @@
 import React from "react";
 import Nav from "../../Components/Nav/Nav";
 import "./Landing.scss";
-import HeroImg from "../../Assets/Images/FaarisUddin.png";
-import ContactForm from "../../Components/ContactForm/ContactForm";
+import Hero from "../../Components/Hero/Hero";
 
 export default function Landing() {
   const ListofServices = [
@@ -58,22 +57,8 @@ export default function Landing() {
   return (
     <div className="landing">
       <Nav />
-      <section className="hero">
-        <div className="hero__main-container">
-          <div className="hero__container">
-            <h1 className="hero__title">
-              Your Partner on the Path to Justice.
-            </h1>
-            <p className="hero__text">
-              We stand by your side, providing expert legal guidance and
-              unwavering support to protect your rights and ensure justice is
-              served
-            </p>
-            <button className="hero__button">Schedule a Consultation</button>
-          </div>
-          <ContactForm />
-        </div>
-      </section>
+      <Hero />
+
       <section className="services">
         <div>
           <img />
