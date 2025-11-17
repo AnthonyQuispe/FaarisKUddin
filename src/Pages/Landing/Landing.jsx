@@ -4,6 +4,7 @@ import "./Landing.scss";
 import Hero from "../../Components/Hero/Hero";
 import Services from "../../Components/Services/Services";
 import About from "../../Components/About/About";
+import Footer from "../../Components/Footer/Footer";
 
 export default function Landing() {
   return (
@@ -12,6 +13,7 @@ export default function Landing() {
       <Hero />
       <Services />
       <About />
+      <Footer />
     </div>
   );
 }
