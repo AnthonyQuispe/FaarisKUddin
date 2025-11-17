@@ -1,0 +1,56 @@
+@use "../../Styles/variables" as *;
+@use "../../Styles/mixins" as *;
+
+.about {
+  background-color: $white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+
+  @include Tablet {
+    padding: 90px 50px;
+  }
+
+  &-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    @include Desktop {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &-title {
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+    color: $primary-color;
+    text-align: center;
+  }
+
+  &-description {
+    font-size: 1.125rem;
+  }
+
+  &-image {
+    width: 100%;
+    height: auto;
+    &-wrapper {
+      width: 100%;
+      max-width: 420px;
+    }
+  }
+}

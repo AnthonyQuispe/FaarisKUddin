@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0722ad16.css",
-    "main.js": "/static/js/main.adfb069f.js",
+    "main.css": "/static/css/main.3a860bbd.css",
+    "main.js": "/static/js/main.5d2857cb.js",
     "static/media/HeroBackground.png": "/static/media/HeroBackground.a802bfe081cc91e84589.png",
     "static/media/Teamwork.png": "/static/media/Teamwork.06dc6724addfbb5c3072.png",
     "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
@@ -9,11 +9,11 @@
     "static/media/InriaSerif-Bold.ttf": "/static/media/InriaSerif-Bold.6e940239a53050039654.ttf",
     "static/media/Menu.svg": "/static/media/Menu.75608c88a93834f12c8bcaf11c9e39d3.svg",
     "index.html": "/index.html",
-    "main.0722ad16.css.map": "/static/css/main.0722ad16.css.map",
-    "main.adfb069f.js.map": "/static/js/main.adfb069f.js.map"
+    "main.3a860bbd.css.map": "/static/css/main.3a860bbd.css.map",
+    "main.5d2857cb.js.map": "/static/js/main.5d2857cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0722ad16.css",
-    "static/js/main.adfb069f.js"
+    "static/css/main.3a860bbd.css",
+    "static/js/main.5d2857cb.js"
   ]
 }
