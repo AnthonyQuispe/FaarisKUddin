@@ -19,9 +19,15 @@
 
   &__title {
     color: $white;
-    font-size: clamp(2rem, 5vw + 1rem, 4rem);
+    font-size: clamp(2rem, 4vw + 1rem, 4rem);
     font-weight: 400;
     line-height: 1.2;
+
+    text-align: center;
+
+    @include Desktop {
+      text-align: unset;
+    }
   }
 
   &__text {
@@ -30,22 +36,31 @@
 
   &__main-container {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
+    @include Desktop {
+      justify-content: space-between;
+    }
   }
 
   &__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 40px;
-    max-width: 650px;
+    max-width: 575px;
 
     @include Tablet {
       gap: 60px;
       width: 100%;
+    }
+
+    @include Desktop {
+      align-items: unset;
     }
   }
 

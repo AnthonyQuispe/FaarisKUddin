@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0c5340d.css",
-    "main.js": "/static/js/main.08157ed1.js",
-    "static/media/FaarisUddin.png": "/static/media/FaarisUddin.057c587da626d101b930.png",
-    "static/media/Logo1.png": "/static/media/Logo1.c228adc4b5e393ece34a.png",
+    "main.css": "/static/css/main.0722ad16.css",
+    "main.js": "/static/js/main.adfb069f.js",
+    "static/media/HeroBackground.png": "/static/media/HeroBackground.a802bfe081cc91e84589.png",
+    "static/media/Teamwork.png": "/static/media/Teamwork.06dc6724addfbb5c3072.png",
+    "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
+    "static/media/InriaSerif-Light.ttf": "/static/media/InriaSerif-Light.60d7a6a1b1a84d2f5cf9.ttf",
+    "static/media/InriaSerif-Bold.ttf": "/static/media/InriaSerif-Bold.6e940239a53050039654.ttf",
     "static/media/Menu.svg": "/static/media/Menu.75608c88a93834f12c8bcaf11c9e39d3.svg",
     "index.html": "/index.html",
-    "main.c0c5340d.css.map": "/static/css/main.c0c5340d.css.map",
-    "main.08157ed1.js.map": "/static/js/main.08157ed1.js.map"
+    "main.0722ad16.css.map": "/static/css/main.0722ad16.css.map",
+    "main.adfb069f.js.map": "/static/js/main.adfb069f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c5340d.css",
-    "static/js/main.08157ed1.js"
+    "static/css/main.0722ad16.css",
+    "static/js/main.adfb069f.js"
   ]
 }
