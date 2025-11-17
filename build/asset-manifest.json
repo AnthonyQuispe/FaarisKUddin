@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a860bbd.css",
-    "main.js": "/static/js/main.5d2857cb.js",
+    "main.css": "/static/css/main.7261aea2.css",
+    "main.js": "/static/js/main.c1389cc6.js",
     "static/media/HeroBackground.png": "/static/media/HeroBackground.a802bfe081cc91e84589.png",
+    "static/media/FaarisUddin.png": "/static/media/FaarisUddin.057c587da626d101b930.png",
     "static/media/Teamwork.png": "/static/media/Teamwork.06dc6724addfbb5c3072.png",
     "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
     "static/media/InriaSerif-Light.ttf": "/static/media/InriaSerif-Light.60d7a6a1b1a84d2f5cf9.ttf",
     "static/media/InriaSerif-Bold.ttf": "/static/media/InriaSerif-Bold.6e940239a53050039654.ttf",
+    "static/media/InstagramIcon.svg": "/static/media/InstagramIcon.1ceabaa51816be44711c9f36f98816c1.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.a2a87c5e7a9d6721df9065e9f6e067e3.svg",
     "static/media/Menu.svg": "/static/media/Menu.75608c88a93834f12c8bcaf11c9e39d3.svg",
+    "static/media/PhoneIcon.svg": "/static/media/PhoneIcon.c59180ba9550891e319a2194b9375195.svg",
+    "static/media/MailIcon.svg": "/static/media/MailIcon.9b3ae8f1dd103c83168713d4ca20468b.svg",
+    "static/media/LocationIcon.svg": "/static/media/LocationIcon.1a4a6b82ffc4ec8e5a77ac65b8207bba.svg",
+    "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.9663d0b4609a21bc4b77ed08956476ec.svg",
     "index.html": "/index.html",
-    "main.3a860bbd.css.map": "/static/css/main.3a860bbd.css.map",
-    "main.5d2857cb.js.map": "/static/js/main.5d2857cb.js.map"
+    "static/media/XIcon.svg": "/static/media/XIcon.dcc4a7f597f1ded99d899187b61efd5c.svg",
+    "main.7261aea2.css.map": "/static/css/main.7261aea2.css.map",
+    "main.c1389cc6.js.map": "/static/js/main.c1389cc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a860bbd.css",
-    "static/js/main.5d2857cb.js"
+    "static/css/main.7261aea2.css",
+    "static/js/main.c1389cc6.js"
   ]
 }

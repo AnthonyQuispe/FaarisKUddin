@@ -4,7 +4,7 @@ import Faaris from "../../Assets/Images/FaarisUddin.png";
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about-container">
         <div className="about-header">
           <h2 className="about-title">Our Lawyer</h2>

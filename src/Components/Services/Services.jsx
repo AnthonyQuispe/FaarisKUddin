@@ -86,7 +86,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="services">
+    <section className="services" id="services">
       <div className="services__header">
         <div className="services__intro">
           <h3 className="services__title">What We Offer</h3>

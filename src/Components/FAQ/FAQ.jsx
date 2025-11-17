@@ -4,11 +4,11 @@ import Faaris from "../../Assets/Images/FaarisUddin.png";
 
 export default function FAQ() {
   return (
-    <section className="about">
-      <div className="about-container">
-        <div className="about-header">
-          <h2 className="about-title">Our Lawyer</h2>
-          <p className="about-description">
+    <section className="faq" id="faq">
+      <div className="faq-container">
+        <div className="faq-header">
+          <h2 className="faq-title">Our Lawyer</h2>
+          <p className="faq-description">
             Faaris Uddin was born in London and raised in Plantation, Florida.
             He earned his B.S. in Criminal Justice from Florida International
             University, graduating cum laude, and later returned to his former
@@ -30,9 +30,9 @@ export default function FAQ() {
             Districts of Florida.
           </p>
         </div>
-        <div className="about-image-wrapper">
+        <div className="faq-image-wrapper">
           <img
-            className="about-image"
+            className="faq-image"
             src={Faaris}
             alt="Image of Faaris K Uddin"
           />

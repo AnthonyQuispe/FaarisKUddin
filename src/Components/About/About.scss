@@ -33,6 +33,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    @include Desktop {
+      height: 540px;
+    }
   }
 
   &-title {

@@ -4,7 +4,7 @@ import ContactForm from "../../Components/ContactForm/ContactForm";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero__main-container">
         <div className="hero__container">
           <h1 className="hero__title">Your Partner on the Path to Justice.</h1>
