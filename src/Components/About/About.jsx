@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import Faaris from "../../Assets/Images/FaarisUddin.png";
+import Faaris from "../../Assets/Images/FaarisUddin.jpeg";
 
 export default function About() {
   return (

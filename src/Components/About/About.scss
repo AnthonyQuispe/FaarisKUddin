@@ -2,7 +2,7 @@
 @use "../../Styles/mixins" as *;
 
 .about {
-  background-color: $white;
+  background-color: $primary-beige;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@
 
   &-title {
     font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
-    color: $primary-color;
+    color: $black;
     text-align: center;
   }
 

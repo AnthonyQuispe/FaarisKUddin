@@ -1,0 +1,56 @@
+import React, { useState, useEffect } from "react";
+import ContactFormModal from "../ContactFormModal/ContactFormModal";
+import ContactForm from "../ContactForm/ContactForm";
+
+const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 1024);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleFormSubmit = () => {
+    setFormSubmitted(true);
+    setIsModalOpen(false);
+  };
+
+  return (
+    <section className="hero">
+      <h1>Welcome to Our Service</h1>
+      {!formSubmitted ? (
+        <>
+          {isDesktop ? (
+            <ContactForm onSubmit={handleFormSubmit} />
+          ) : (
+            <button onClick={handleOpenModal}>Book Your Consultation</button>
+          )}
+        </>
+      ) : (
+        <p>Thank you for booking your consultation. Our team will reach out.</p>
+      )}
+
+      {isModalOpen && (
+        <ContactFormModal
+          onClose={handleCloseModal}
+          onSubmit={handleFormSubmit}
+        />
+      )}
+    </section>
+  );
+};
+
+export default Hero;

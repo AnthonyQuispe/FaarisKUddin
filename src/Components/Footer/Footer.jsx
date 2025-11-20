@@ -3,7 +3,7 @@ import LinkedinIcon from "../../Assets/Icon/linkedin.svg";
 import InstagramIcon from "../../Assets/Icon/InstagramIcon.svg";
 import XIcon from "../../Assets/Icon/XIcon.svg";
 import FacebookIcon from "../../Assets/Icon/FacebookIcon.svg";
-import Logo from "../../Assets/Logo/Logo1.png";
+import Logo from "../../Assets/Logo/Logo.png";
 
 import PhoneIcon from "../../Assets/Icon/PhoneIcon.svg";
 import MailIcon from "../../Assets/Icon/MailIcon.svg";
@@ -74,8 +74,8 @@ export default function Footer() {
               alt="Location Icon"
             />
             <div>
-              <p>Jl. Medan Merdeka Selatan</p>
-              <p>No.8-9 Jakarta, DKI Jakarta</p>
+              <p>Base in South Florida</p>
+              <p>Broward / Miami County</p>
             </div>
           </div>
         </div>
@@ -85,10 +85,9 @@ export default function Footer() {
 
           <ul className="footer__service-list">
             <li>Litigation and Dispute Resolution</li>
-            <li>Real Estate and Property Law</li>
-            <li>Human Rights and Advocacy</li>
-            <li>Taxation and Financial Law</li>
-            <li>Immigration Law</li>
+            <li>Corporate and Business Law</li>
+            <li>Family + Real Estate</li>
+            <li>Employment and Labor Law</li>
           </ul>
         </div>
       </div>

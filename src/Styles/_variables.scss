@@ -1,6 +1,14 @@
 $white: #ffff;
-$black: #000000;
-$primary-background: #14213d;
-$primary-color: rgba(231, 161, 46, 0.75);
-$primary-font: #212a3f;
-// $primary-color: #f4a529;
+$black: #1a1a1a;
+
+$primary-red: #8b0016;
+$primary-beige: #e0dad2;
+$beige-alt: rgb(213.5986842105, 205.5855263158, 194.9013157895);
+$primary-gray: #6666;
+$background-gradient: linear-gradient(
+  180deg,
+  #1e232b 38%,
+  rgba(30, 35, 43, 0.9) 94% 100%
+);
+
+$background-dark: #1e232b;

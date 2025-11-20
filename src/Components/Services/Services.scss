@@ -2,7 +2,7 @@
 @use "../../Styles/mixins" as *;
 
 .services {
-  background-color: $white;
+  background-color: $primary-beige;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,7 @@
   }
 
   &__description {
+    color: $black;
     font-size: clamp(1.125rem, 2vw + 1rem, 2.5rem);
   }
 
@@ -53,7 +54,7 @@
   }
 
   &__title {
-    color: $primary-color;
+    color: $primary-red;
     text-align: center;
   }
 
@@ -64,8 +65,6 @@
 
   &__button {
     @include Button;
-    background-color: $primary-color;
-    color: $black;
     display: none;
 
     @include Desktop {
@@ -74,7 +73,8 @@
   }
 
   &__item {
-    border-top: 4px solid $primary-color;
+    border-top: 4px solid $primary-red;
+    background-color: $white;
     width: 100%;
     min-width: 280px;
     max-width: 380px;
@@ -112,7 +112,7 @@
 
     &-item {
       list-style: disc;
-      color: black;
+      color: $black;
     }
   }
 }

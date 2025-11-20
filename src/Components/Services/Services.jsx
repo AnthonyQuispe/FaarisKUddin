@@ -29,10 +29,10 @@ export default function Services() {
       ],
     },
     {
-      Title: "Family Law",
+      Title: "Family + Real Estate",
       Img: Family,
       Details: [
-        "Divorce and child custody.",
+        "Lease agreements and tenant rights.",
         "Prenuptial agreements.",
         "Estate planning and inheritance matters.",
       ],
@@ -44,43 +44,6 @@ export default function Services() {
         "Workplace disputes and wrongful termination.",
         "Employment contracts and policies.",
         "Labor union negotiations.",
-      ],
-    },
-    {
-      Title: "Intellectual Property Law",
-      Img: Tax,
-      Details: [
-        "Trademark and copyright registration.",
-        "IP infringement cases.",
-        "Licensing and patent agreements.",
-      ],
-    },
-    {
-      Title: "Real Estate and Property Law",
-      Img: Tax,
-      Details: [
-        "Property transactions and contracts.",
-        "Land disputes and zoning issues.",
-        "Lease agreements and tenant rights.",
-      ],
-    },
-
-    {
-      Title: "Human Rights and Advocacy",
-      Img: Balance,
-      Details: [
-        "Legal aid for marginalized communities..",
-        "Protection of fundamental rights.",
-        "Representation in public interest litigation.",
-      ],
-    },
-    {
-      Title: "Taxation and Financial Law",
-      Img: RealEstate,
-      Details: [
-        "Tax compliance and disputes.",
-        "Financial regulations and audits.",
-        "Tax planning for individuals and businesses.",
       ],
     },
   ];

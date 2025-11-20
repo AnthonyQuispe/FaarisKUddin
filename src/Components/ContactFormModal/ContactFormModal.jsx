@@ -1,4 +1,4 @@
-import "./ContactForm.scss";
+import "./ContactFormModal";
 import react, { useState } from "react";
 
 export default function ContactForm() {
@@ -29,10 +29,12 @@ export default function ContactForm() {
   ];
 
   return (
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form onSubmit={handleSubmit} className="contact-form-modal">
       {!formCompletion && (
-        <div className="contact-form__container">
-          <h2 className="contact-form__title">Schedule Free Consultation</h2>
+        <div className="contact-form-modal__container">
+          <h2 className="contact-form-modal__title">
+            Schedule Free Consultation
+          </h2>
           {fields.map((fields) => (
             <input
               key={fields.name}
@@ -40,7 +42,7 @@ export default function ContactForm() {
               value={form[fields.name]}
               onChange={handleChange}
               placeholder={fields.placeholder}
-              className="contact-form__input"
+              className="contact-form-modal__input"
             />
           ))}
           <textarea
@@ -48,17 +50,17 @@ export default function ContactForm() {
             value={form.message}
             onChange={handleChange}
             placeholder="Message"
-            className="contact-form__textarea"
+            className="contact-form-modal__textarea"
           />
-          <button type="submit" className="contact-form__button">
+          <button type="submit" className="contact-form-modal__button">
             Submit
           </button>
         </div>
       )}
 
       {formCompletion && (
-        <div className="contact-form__container contact-form__container--alt ">
-          <h2 className="contact-form__title">
+        <div className="contact-form-modal__container contact-form-modal__container--alt ">
+          <h2 className="contact-form-modal__title">
             Thank you for your message.
             <br /> Our team will review it and follow up promptly.
           </h2>

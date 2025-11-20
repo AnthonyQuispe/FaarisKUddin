@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.scss";
 import MenuIcon from "../../Assets/Icon/Menu.svg";
-import Logo from "../../Assets/Logo/Logo1.png";
+import Logo from "../../Assets/Logo/Logo.png";
 import closeIcon from "../../Assets/Icon/CloseIcon.png";
 
 export default function Nav() {
@@ -24,7 +24,7 @@ export default function Nav() {
       <div className="nav">
         <Link to="/" className="nav__link">
           <img src={Logo} className="nav__logo" />
-          <p>Faaris K. Uddin</p>
+          <p className="nav__logo-text">Faaris K. Uddin</p>
         </Link>
         <button className="nav__button" onClick={handleMenu}>
           <img src={MenuIcon} alt="Menu Icon" className="nav__button--menu" />
