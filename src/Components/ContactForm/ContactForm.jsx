@@ -7,7 +7,6 @@ export default function ContactForm() {
     name: "",
     email: "",
     phone: "",
-    subject: "",
     message: "",
   });
 

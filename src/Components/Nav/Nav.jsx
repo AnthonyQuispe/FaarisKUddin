@@ -7,10 +7,17 @@ import closeIcon from "../../Assets/Icon/CloseIcon.png";
 
 export default function Nav() {
   const ListOfNav = [
-    { name: "Home", path: "#home" },
-    { name: "Services", path: "#services" },
-    { name: "About", path: "#about" },
-    { name: "FAQ", path: "#faq" },
+    { name: "Home", path: "/#home" },
+    { name: "Services", path: "/#services" },
+    { name: "About", path: "/#about" },
+    { name: "FAQ", path: "/#faq" },
+  ];
+  const ListOfNavMobile = [
+    { name: "Home", path: "/#home" },
+    { name: "Services", path: "/#services" },
+    { name: "About", path: "/#about" },
+    { name: "FAQ", path: "/#faq" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,10 +29,10 @@ export default function Nav() {
   return (
     <nav className="nav-background">
       <div className="nav">
-        <Link to="/" className="nav__link">
+        <a href={"/"} className="nav__link">
           <img src={Logo} className="nav__logo" />
           <p className="nav__logo-text">Faaris K. Uddin</p>
-        </Link>
+        </a>
         <button className="nav__button" onClick={handleMenu}>
           <img src={MenuIcon} alt="Menu Icon" className="nav__button--menu" />
         </button>
@@ -39,7 +46,7 @@ export default function Nav() {
                 className="nav__button--menu"
               />
             </button>
-            {ListOfNav.map((item) => (
+            {ListOfNavMobile.map((item) => (
               <li key={item.path} className="nav__list-mobile-item-list">
                 <a href={item.path} className="nav__list-mobile-item">
                   {item.name}
@@ -58,7 +65,9 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-        <button className="nav__button-connect">Contact Us</button>
+        <Link to="/contact" className="nav__button-connect">
+          Contact Us
+        </Link>
       </div>
     </nav>
   );

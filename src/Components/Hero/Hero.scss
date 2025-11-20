@@ -2,7 +2,8 @@
 @use "../../Styles/mixins" as *;
 
 .hero {
-  background: $background-gradient;
+  background-image: url("../../Assets/Background/HeroBackground.png");
+
   display: flex;
   justify-content: center;
   align-items: center;
