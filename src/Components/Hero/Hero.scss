@@ -3,7 +3,8 @@
 
 .hero {
   background-image: url("../../Assets/Background/HeroBackground.png");
-
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -83,6 +83,13 @@
     &-item {
       color: $black;
       font-size: 1.125rem;
+      border-radius: 12px;
+      padding: 0 8px;
+
+      &:hover {
+        background-color: $primary-red;
+        color: $white;
+      }
     }
   }
 

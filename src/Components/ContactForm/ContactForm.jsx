@@ -24,7 +24,6 @@ export default function ContactForm() {
     { name: "name", placeholder: "Name" },
     { name: "email", placeholder: "Email" },
     { name: "phone", placeholder: "Phone" },
-    { name: "Subject", placeholder: "Subject" },
   ];
 
   return (

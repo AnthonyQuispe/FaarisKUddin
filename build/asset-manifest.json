@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.166e2aa8.css",
-    "main.js": "/static/js/main.5f013405.js",
+    "main.css": "/static/css/main.a105e22b.css",
+    "main.js": "/static/js/main.6668d0c1.js",
+    "static/media/HeroBackground.png": "/static/media/HeroBackground.08b9fd77e83c079d434b.png",
+    "static/media/BackgroundImage.png": "/static/media/BackgroundImage.21077ebfe7c0f3905d51.png",
     "static/media/Teamwork.png": "/static/media/Teamwork.06dc6724addfbb5c3072.png",
     "static/media/FaarisUddin.jpeg": "/static/media/FaarisUddin.e1c908904641587e7e72.jpeg",
     "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
@@ -17,11 +19,11 @@
     "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.9663d0b4609a21bc4b77ed08956476ec.svg",
     "index.html": "/index.html",
     "static/media/XIcon.svg": "/static/media/XIcon.dcc4a7f597f1ded99d899187b61efd5c.svg",
-    "main.166e2aa8.css.map": "/static/css/main.166e2aa8.css.map",
-    "main.5f013405.js.map": "/static/js/main.5f013405.js.map"
+    "main.a105e22b.css.map": "/static/css/main.a105e22b.css.map",
+    "main.6668d0c1.js.map": "/static/js/main.6668d0c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.166e2aa8.css",
-    "static/js/main.5f013405.js"
+    "static/css/main.a105e22b.css",
+    "static/js/main.6668d0c1.js"
   ]
 }
