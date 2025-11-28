@@ -4,27 +4,84 @@
 .contact {
   background-color: $primary-beige;
 
-  &__form {
+  &__socials {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__social {
+    width: 42px;
+    height: 42px;
+    background-color: $primary-beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.2s ease;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      transform: translateY(-4px);
+      background-color: #ffb842;
+    }
+  }
+
+  &__info {
+    color: $white;
+    width: 100%;
+
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    max-width: 410px;
+    padding: 20px;
+
+    @include Tablet {
+      justify-content: space-evenly;
+      height: 530px;
+    }
+
+    &-title {
+      font-size: 2rem;
+    }
+    &-subheader {
+      font-size: 1rem;
+      text-align: center;
+    }
+    &-text {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__background {
     background-image: url("../../Assets/Background/BackgroundImage.png");
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
     width: 100%;
     min-width: 320px;
     min-height: 100dvh;
-    flex-direction: column;
     align-items: center;
-
-    justify-content: center;
-    background-color: $primary-beige;
-    border: none;
     gap: 20px;
     padding: 90px 0px 20px 0;
 
-    @include Desktop {
-      padding: 90px 50px 50px 50px;
+    @include Tablet {
+      gap: 50px;
     }
+  }
 
+  &__form {
+    width: 100%;
+    max-width: 500px;
+    height: 530px;
     &__title {
       font-family: "Inria Serif";
       font-weight: 700;
@@ -75,10 +132,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
-      max-width: 450px;
       padding: 20px;
-
       border-radius: 12px;
       border: 2px solid #1a1a1a;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
