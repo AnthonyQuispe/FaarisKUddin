@@ -10,10 +10,10 @@ export default function Hero() {
         <div className="hero__container">
           <h1 className="hero__title">Justice, Guidance, Results.</h1>
           <p className="hero__text">
-            At FKU Law, we combine years of experience, legal insight, and
-            relentless advocacy to protect your rights and guide you through
-            every legal challenge with confidence. Our expert attorneys are
-            committed to achieving the results you deserve.
+            At FKU Law, our experienced attorneys provide legal services in
+            areas such as family law, criminal defense, personal injury, and
+            business litigation. We’re dedicated to delivering the results you
+            deserve across the Florida region.
           </p>
           <Link
             to="/contact"

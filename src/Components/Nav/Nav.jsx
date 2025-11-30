@@ -29,17 +29,29 @@ export default function Nav() {
   return (
     <nav className="nav-background">
       <div className="nav">
-        <a href={"/"} className="nav__link">
-          <img src={Logo} className="nav__logo" />
+        <a href="/" className="nav__link">
+          <img
+            src={Logo}
+            alt="Faaris K. Uddin Law Logo"
+            className="nav__logo"
+          />
           <p className="nav__logo-text">Faaris K. Uddin</p>
         </a>
-        <button className="nav__button" onClick={handleMenu}>
+        <button
+          className="nav__button"
+          onClick={handleMenu}
+          aria-label="Open menu"
+        >
           <img src={MenuIcon} alt="Menu Icon" className="nav__button--menu" />
         </button>
 
         {isMenuOpen && (
           <ul className="nav__list-mobile">
-            <button className="nav__list-mobile-button" onClick={handleMenu}>
+            <button
+              className="nav__list-mobile-button"
+              onClick={handleMenu}
+              aria-label="Close menu"
+            >
               <img
                 src={closeIcon}
                 alt="Close Menu Icon"

@@ -7,41 +7,42 @@ export default function About() {
     <section className="about" id="about">
       <div className="about-container">
         <div className="about-header">
-          <h2 className="about-title">Our Lawyer</h2>
+          <h2 className="about-title">
+            About Faaris Uddin <br /> Florida Attorney
+          </h2>
           <p className="about-description">
-            Faaris Uddin was born in London and raised in Plantation, Florida.
-            He earned his B.S. in Criminal Justice from Florida International
-            University, graduating cum laude, before returning to his former
-            middle school to teach language arts and social studies. His
-            commitment to justice, mentorship, and community service continues
-            to shape his work and leadership.
+            Faaris Uddin is a dedicated Florida attorney with roots in both
+            London and Plantation, Florida. After earning his B.S. in Criminal
+            Justice from Florida International University with cum laude honors,
+            he returned to his former middle school to teach language arts and
+            social studies—an experience that strengthened his commitment to
+            mentorship, community service, and advocacy.
             <br />
             <br />
-            Mr. Uddin later earned his Juris Doctor from FIU College of Law
-            while teaching full-time in the evening program. During law school,
-            he served as a peer mentor, legal research assistant, and two-time
-            member of the Carlos A. Costa Immigration & Human Rights Clinic,
-            where he advocated for individuals seeking asylum under the guidance
-            of Professor Juan Gomez.
+            He later earned his Juris Doctor from FIU College of Law through the
+            evening program while continuing to teach full‑time. During his time
+            in law school, he served as a peer mentor, legal research assistant,
+            and two‑time member of the Carlos A. Costa Immigration & Human
+            Rights Clinic. Under the guidance of Professor Juan Gomez, he
+            represented individuals seeking asylum and gained hands‑on
+            experience navigating complex immigration matters.
             <br />
             <br />
-            Mr. Uddin founded FAU Law to create a practice grounded in
-            accessibility, integrity, and meaningful advocacy. After years of
-            serving his community as both an educator and an attorney, he
-            recognized the need for a client-focused firm that offers clear
-            guidance and strong representation for individuals facing
-            overwhelming legal challenges. Through FAU Law, he brings together
-            his passion for justice, his commitment to mentorship, and his
-            experience holding powerful institutions accountable. His mission is
-            to ensure every client is heard, protected, and empowered throughout
-            their legal journey.
+            Faaris founded FAU Law to provide clear guidance, accessible
+            representation, and strong advocacy for Florida clients facing legal
+            challenges. His practice reflects years of service as both an
+            educator and an attorney, bringing together his dedication to
+            justice, his commitment to empowering individuals, and his focus on
+            holding powerful institutions accountable. Through FAU Law, he works
+            to ensure every client is heard, supported, and equipped to move
+            confidently through their legal journey.
           </p>
         </div>
         <div className="about-image-wrapper">
           <img
             className="about-image"
             src={Faaris}
-            alt="Image of Faaris K Uddin"
+            alt="Attorney Faaris Uddin, founder of FAU Law"
           />
         </div>
       </div>

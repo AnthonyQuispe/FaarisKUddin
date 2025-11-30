@@ -4,7 +4,7 @@ import InstagramIcon from "../../Assets/Icon/InstagramIcon.svg";
 import XIcon from "../../Assets/Icon/XIcon.svg";
 import FacebookIcon from "../../Assets/Icon/FacebookIcon.svg";
 import Logo from "../../Assets/Logo/Logo.png";
-
+import { Link } from "react-router-dom";
 import PhoneIcon from "../../Assets/Icon/PhoneIcon.svg";
 import MailIcon from "../../Assets/Icon/MailIcon.svg";
 import LocationIcon from "../../Assets/Icon/LocationIcon.svg";
@@ -18,11 +18,10 @@ export default function Footer() {
             <img className="footer__logo-icon" src={Logo} alt="Logo" />
             <span className="footer__logo-text">Faaris K. Uddin</span>
           </div>
-
           <p className="footer__description">
-            We stand by your side, providing expert legal guidance and
-            unwavering support to protect your rights and ensure justice is
-            served
+            Providing legal guidance and strong advocacy across South Florida,
+            serving individuals and businesses with integrity, clarity, and
+            results.
           </p>
 
           <div className="footer__socials">
@@ -44,7 +43,7 @@ export default function Footer() {
           </div>
 
           <div className="footer__hours">
-            <h4 className="footer__hours-title">Open hour</h4>
+            <h4 className="footer__hours-title">Hours of Operation</h4>
             <p className="footer__hours-text">
               Monday - Friday : 9:00 AM - 5:00 PM
             </p>
@@ -56,14 +55,13 @@ export default function Footer() {
           <div className="footer__contact-item">
             <img className="footer__icon" src={PhoneIcon} alt="Phone Icon" />
             <div>
-              <p>+954-826-5019</p>
+              <a href="tel:+19548265019">+954-826-5019</a>
             </div>
           </div>
-
           <div className="footer__contact-item">
             <img className="footer__icon" src={MailIcon} alt="Mail Icon" />
             <div>
-              <p>faaris@fkulaw.com</p>
+              <a href="mailto:faaris@fkulaw.com">faaris@fkulaw.com</a>
             </div>
           </div>
 
@@ -74,8 +72,7 @@ export default function Footer() {
               alt="Location Icon"
             />
             <div>
-              <p>Base in South Florida</p>
-              <p>Broward / Miami County</p>
+              <p>South Florida</p>
             </div>
           </div>
         </div>
@@ -84,17 +81,32 @@ export default function Footer() {
           <h3 className="footer__title">Services</h3>
 
           <ul className="footer__service-list">
-            <li>Litigation and Dispute Resolution</li>
-            <li>Corporate and Business Law</li>
-            <li>Family + Real Estate</li>
-            <li>Employment and Labor Law</li>
+            <li>
+              <Link to="/services/litigation">
+                Litigation & Dispute Resolution
+              </Link>
+            </li>
+            <li>
+              <Link to="/services/litigation">Corporate and Business Law</Link>
+            </li>
+            <li>
+              <Link to="/services/litigation">
+                Family Law and Real Estate Law
+              </Link>
+            </li>
+            <li>
+              <Link to="/services/litigation">Employment and Labor Law</Link>
+            </li>
           </ul>
         </div>
       </div>
 
       <div className="footer__bottom">
         <p>©2025 F.K.U All rights reserved.</p>
-        <p>Privacy Policy & Terms of Use</p>
+        <p>
+          <Link to="/privacy-policy">Privacy Policy</Link> &{" "}
+          <Link to="/terms">Terms of Use</Link>
+        </p>
       </div>
     </footer>
   );
