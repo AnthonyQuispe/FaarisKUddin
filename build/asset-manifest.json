@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b32d4c70.css",
-    "main.js": "/static/js/main.6668d0c1.js",
+    "main.css": "/static/css/main.fca38875.css",
+    "main.js": "/static/js/main.8c75c0c0.js",
     "static/media/HeroBackground.png": "/static/media/HeroBackground.08b9fd77e83c079d434b.png",
     "static/media/BackgroundImage.png": "/static/media/BackgroundImage.21077ebfe7c0f3905d51.png",
+    "static/media/FAQ.png": "/static/media/FAQ.a8c8d4a072f1a540beff.png",
     "static/media/Teamwork.png": "/static/media/Teamwork.06dc6724addfbb5c3072.png",
     "static/media/FaarisUddin.jpeg": "/static/media/FaarisUddin.e1c908904641587e7e72.jpeg",
     "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
     "static/media/InriaSerif-Light.ttf": "/static/media/InriaSerif-Light.60d7a6a1b1a84d2f5cf9.ttf",
     "static/media/InriaSerif-Bold.ttf": "/static/media/InriaSerif-Bold.6e940239a53050039654.ttf",
-    "static/media/Logo.png": "/static/media/Logo.9dac05aa790969b64532.png",
+    "static/media/Logo.png": "/static/media/Logo.d06ec5565ab4f8f2d1dd.png",
     "static/media/InstagramIcon.svg": "/static/media/InstagramIcon.1ceabaa51816be44711c9f36f98816c1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.a2a87c5e7a9d6721df9065e9f6e067e3.svg",
     "static/media/Menu.svg": "/static/media/Menu.a7de70d704f8d6486a02047299985b54.svg",
@@ -19,11 +20,11 @@
     "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.9663d0b4609a21bc4b77ed08956476ec.svg",
     "index.html": "/index.html",
     "static/media/XIcon.svg": "/static/media/XIcon.dcc4a7f597f1ded99d899187b61efd5c.svg",
-    "main.b32d4c70.css.map": "/static/css/main.b32d4c70.css.map",
-    "main.6668d0c1.js.map": "/static/js/main.6668d0c1.js.map"
+    "main.fca38875.css.map": "/static/css/main.fca38875.css.map",
+    "main.8c75c0c0.js.map": "/static/js/main.8c75c0c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b32d4c70.css",
-    "static/js/main.6668d0c1.js"
+    "static/css/main.fca38875.css",
+    "static/js/main.8c75c0c0.js"
   ]
 }
