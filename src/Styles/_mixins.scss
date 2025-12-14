@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 @mixin Phone {
-  @media screen and (max-widht: 430px) {
+  @media screen and (max-width: 430px) {
     @content;
   }
 }
