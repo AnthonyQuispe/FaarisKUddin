@@ -44,6 +44,11 @@
 
     &-text {
       color: $black;
+      font-weight: 700;
+
+      &--small {
+        font-size: 1.3rem;
+      }
     }
   }
   &__button {

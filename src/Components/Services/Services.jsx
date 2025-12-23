@@ -11,39 +11,46 @@ import Balance from "../../Assets/Icon/BalanceIcon.png";
 export default function Services() {
   const ListofServices = [
     {
-      Title: "Litigation and Dispute Resolution",
-      Img: HammerIcon,
-      Details: [
-        "Legal representation in court.",
-        "Civil, criminal, and commercial litigation.",
-        "Mediation and arbitration services.",
-      ],
-    },
-    {
-      Title: "Corporate and Business Law",
+      Title: "Property Law",
       Img: Handshake,
       Details: [
-        "Drafting and reviewing contracts.",
-        "Corporate compliance and governance.",
-        "Mergers, acquisitions, and business restructuring.",
+        "Estate Planning: Wills and Trusts",
+        "Deeds",
+        "Landlord Tenant Disputes",
+        "Probate",
       ],
     },
     {
-      Title: "Family + Real Estate",
+      Title: "Business Law",
+      Img: HammerIcon,
+      Details: [
+        "Contract Drafting and Review",
+        "Business Formation",
+        "Mergers, Acquisitions, and Corporate Restructuring",
+        "Trademark and Copyright",
+      ],
+    },
+    {
+      Title: "Personal Injury",
+      Img: People,
+      Details: ["Car Accident", "Slip and Fall", "Nursing Home Negligence"],
+    },
+    {
+      Title: "Immigration Law",
       Img: Family,
       Details: [
-        "Lease agreements and tenant rights.",
-        "Prenuptial agreements.",
-        "Estate planning and inheritance matters.",
+        "Citizenships And Green Card Applications",
+        "Naturalization",
+        "Asylum and Removal Defense",
       ],
     },
     {
-      Title: "Employment and Labor Law",
-      Img: People,
+      Title: "Family Law",
+      Img: HammerIcon,
       Details: [
-        "Workplace disputes and wrongful termination.",
-        "Employment contracts and policies.",
-        "Labor union negotiations.",
+        "Prenuptial and Postnuptial Agreements",
+        "Divorce and Child Custody",
+        "Restraining Order Matters",
       ],
     },
   ];

@@ -35,7 +35,11 @@ export default function Nav() {
             alt="Faaris K. Uddin Law Logo"
             className="nav__logo"
           />
-          <p className="nav__logo-text">Faaris K. Uddin</p>
+          <p className="nav__logo-text">
+            FAARIS K. UDDIN <br />
+            <hr />
+            <span className="nav__logo-text--small">ATTORNEY AT LAW </span>
+          </p>
         </a>
         <button
           className="nav__button"

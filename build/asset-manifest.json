@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fca38875.css",
-    "main.js": "/static/js/main.8c75c0c0.js",
+    "main.css": "/static/css/main.abb02178.css",
+    "main.js": "/static/js/main.c0ec148c.js",
     "static/media/HeroBackground.png": "/static/media/HeroBackground.08b9fd77e83c079d434b.png",
     "static/media/BackgroundImage.png": "/static/media/BackgroundImage.21077ebfe7c0f3905d51.png",
     "static/media/FAQ.png": "/static/media/FAQ.a8c8d4a072f1a540beff.png",
@@ -11,6 +11,7 @@
     "static/media/InriaSerif-Light.ttf": "/static/media/InriaSerif-Light.60d7a6a1b1a84d2f5cf9.ttf",
     "static/media/InriaSerif-Bold.ttf": "/static/media/InriaSerif-Bold.6e940239a53050039654.ttf",
     "static/media/Logo.png": "/static/media/Logo.d06ec5565ab4f8f2d1dd.png",
+    "index.html": "/index.html",
     "static/media/InstagramIcon.svg": "/static/media/InstagramIcon.1ceabaa51816be44711c9f36f98816c1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.a2a87c5e7a9d6721df9065e9f6e067e3.svg",
     "static/media/Menu.svg": "/static/media/Menu.a7de70d704f8d6486a02047299985b54.svg",
@@ -18,13 +19,12 @@
     "static/media/MailIcon.svg": "/static/media/MailIcon.ff7e3c2f149adf28fa64ce50ff8852f4.svg",
     "static/media/LocationIcon.svg": "/static/media/LocationIcon.027305e1b80d7a7b0f06ad594cd07164.svg",
     "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.9663d0b4609a21bc4b77ed08956476ec.svg",
-    "index.html": "/index.html",
     "static/media/XIcon.svg": "/static/media/XIcon.dcc4a7f597f1ded99d899187b61efd5c.svg",
-    "main.fca38875.css.map": "/static/css/main.fca38875.css.map",
-    "main.8c75c0c0.js.map": "/static/js/main.8c75c0c0.js.map"
+    "main.abb02178.css.map": "/static/css/main.abb02178.css.map",
+    "main.c0ec148c.js.map": "/static/js/main.c0ec148c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fca38875.css",
-    "static/js/main.8c75c0c0.js"
+    "static/css/main.abb02178.css",
+    "static/js/main.c0ec148c.js"
   ]
 }

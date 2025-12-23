@@ -16,7 +16,10 @@ export default function Footer() {
         <div className="footer__about">
           <div className="footer__logo">
             <img className="footer__logo-icon" src={Logo} alt="Logo" />
-            <span className="footer__logo-text">Faaris K. Uddin</span>
+            <p className="footer__logo-text">
+              Faaris K. Uddin <br /> <hr />
+              <span className="footer__logo-text--small">ATTORNEY AT LAW</span>
+            </p>
           </div>
           <p className="footer__description">
             Providing legal guidance and strong advocacy across South Florida,
@@ -24,7 +27,7 @@ export default function Footer() {
             results.
           </p>
 
-          <div className="footer__socials">
+          {/* <div className="footer__socials">
             <a href="#" className="footer__social">
               <img src={FacebookIcon} alt="Facebook" />
             </a>
@@ -40,7 +43,7 @@ export default function Footer() {
             >
               <img src={LinkedinIcon} alt="LinkedIn" />
             </a>
-          </div>
+          </div> */}
 
           <div className="footer__hours">
             <h4 className="footer__hours-title">Hours of Operation</h4>
@@ -72,7 +75,9 @@ export default function Footer() {
               alt="Location Icon"
             />
             <div>
-              <p>South Florida</p>
+              <p>
+                5801 Hollywood Blvd Hollywood <br /> FL 33021-6327
+              </p>
             </div>
           </div>
         </div>
@@ -82,27 +87,29 @@ export default function Footer() {
 
           <ul className="footer__service-list">
             <li>
-              <Link to="/services/litigation">
-                Litigation & Dispute Resolution
-              </Link>
+              <Link to="/services/litigation">Property Law</Link>
             </li>
             <li>
-              <Link to="/services/litigation">Corporate and Business Law</Link>
+              <Link to="/services/litigation">Business Law</Link>
             </li>
             <li>
-              <Link to="/services/litigation">
-                Family Law and Real Estate Law
-              </Link>
+              <Link to="/services/litigation">Personal Injury</Link>
             </li>
             <li>
-              <Link to="/services/litigation">Employment and Labor Law</Link>
+              <Link to="/services/litigation">Immigration Law</Link>
+            </li>
+            <li>
+              <Link to="/services/litigation">Family Law</Link>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="footer__bottom">
-        <p>©2025 F.K.U All rights reserved.</p>
+        <p>
+          ©2025 FULAW PLLC <br />
+          All rights reserved.
+        </p>
         <p>
           <Link to="/privacy-policy">Privacy Policy</Link> &{" "}
           <Link to="/terms">Terms of Use</Link>
