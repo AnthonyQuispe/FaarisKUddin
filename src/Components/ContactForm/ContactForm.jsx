@@ -1,8 +1,11 @@
 import "./ContactForm.scss";
-import react, { useState } from "react";
+import { useState } from "react";
 
-export default function ContactForm() {
-  const [formCompletion, setformCompletion] = useState(false);
+export default function ContactForm({ pageClass }) {
+  const functionURL = "https://us-central1-faariskuddin.cloudfunctions.net"; // updated project URL
+
+  const [formCompletion, setFormCompletion] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -15,47 +18,83 @@ export default function ContactForm() {
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setformCompletion(true);
+
+    // Basic validation
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill out Name, Email, and Message.");
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      const res = await fetch(`${functionURL}/sendContact`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      // Show server error message if failed
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(text || "Failed to send");
+      }
+
+      setFormCompletion(true);
+      setForm({ name: "", email: "", phone: "", message: "" });
+    } catch (err) {
+      console.error("Contact form error:", err);
+      alert(`Something went wrong: ${err.message}`);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const fields = [
     { name: "name", placeholder: "Name" },
     { name: "email", placeholder: "Email" },
-    { name: "phone", placeholder: "Phone" },
+    { name: "phone", placeholder: "Phone (optional)" },
   ];
 
   return (
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form onSubmit={handleSubmit} className={`contact-form ${pageClass || ""}`}>
       {!formCompletion && (
         <div className="contact-form__container">
           <h2 className="contact-form__title">Schedule Free Consultation</h2>
-          {fields.map((fields) => (
+
+          {fields.map((field) => (
             <input
-              key={fields.name}
-              name={fields.name}
-              value={form[fields.name]}
+              key={field.name}
+              name={field.name}
+              value={form[field.name]}
               onChange={handleChange}
-              placeholder={fields.placeholder}
+              placeholder={field.placeholder}
               className="contact-form__input"
             />
           ))}
+
           <textarea
             name="message"
             value={form.message}
             onChange={handleChange}
-            placeholder="Message"
+            placeholder="Describe your case"
             className="contact-form__textarea"
           />
-          <button type="submit" className="contact-form__button">
-            Submit
+
+          <button
+            type="submit"
+            className="contact-form__button"
+            disabled={loading}
+          >
+            {loading ? "Sending..." : "Submit"}
           </button>
         </div>
       )}
 
       {formCompletion && (
-        <div className="contact-form__container contact-form__container--alt ">
+        <div className="contact-form__container contact-form__container--alt">
           <h2 className="contact-form__title">
             Thank you for your message.
             <br /> Our team will review it and follow up promptly.

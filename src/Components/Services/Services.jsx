@@ -1,4 +1,5 @@
 import "./Services.scss";
+import { Link } from "react-router-dom";
 import ServicesImg from "../../Assets/Images/Teamwork.png";
 import HammerIcon from "../../Assets/Icon/Hammer.png";
 import Handshake from "../../Assets/Icon/Handshake.png";
@@ -37,7 +38,7 @@ export default function Services() {
     },
     {
       Title: "Immigration Law",
-      Img: Family,
+      Img: Balance,
       Details: [
         "Citizenships And Green Card Applications",
         "Naturalization",
@@ -46,7 +47,7 @@ export default function Services() {
     },
     {
       Title: "Family Law",
-      Img: HammerIcon,
+      Img: Family,
       Details: [
         "Prenuptial and Postnuptial Agreements",
         "Divorce and Child Custody",
@@ -64,7 +65,9 @@ export default function Services() {
             We provide tailored legal solutions to meet your unique needs,
             ensuring your rights are protected and justice is served.
           </p>
-          <button className="services__button">See More</button>
+          <Link to="/contact" className="services__button">
+            See More
+          </Link>
         </div>
         <img
           className="services__image"

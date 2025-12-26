@@ -74,14 +74,15 @@
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    min-height: 600px;
+    min-height: 100dvh;
     align-items: center;
     gap: 20px;
-    padding: 90px 0px 20px 0;
+    padding: 150px 0px 20px 0;
 
     @include Tablet {
       gap: 50px;
       height: 1000px;
+      padding: 90px 0px 20px 0;
     }
   }
 
@@ -89,6 +90,7 @@
     width: 100%;
     max-width: 500px;
     height: 530px;
+
     &__title {
       font-family: "Inria Serif";
       font-weight: 700;
@@ -147,6 +149,10 @@
       border: 2px solid #1a1a1a;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
+  }
+
+  &-page-form {
+    display: flex;
   }
 }
 
