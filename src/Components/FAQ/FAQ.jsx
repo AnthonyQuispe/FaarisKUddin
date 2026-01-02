@@ -64,7 +64,12 @@ export default function FAQ() {
                 >
                   <span className="faq__number">{item.id}.</span>
                   <p>{item.question}</p>
-                  <button className="faq__toggle">
+                  <button
+                    className="faq__toggle"
+                    aria-label={
+                      active === item.id ? "Collapse answer" : "Expand answer"
+                    }
+                  >
                     {active === item.id ? "▲" : "▼"}
                   </button>
                 </div>

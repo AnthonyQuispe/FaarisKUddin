@@ -5,7 +5,7 @@ import ContactForm from "../../Components/ContactForm/ContactForm";
 
 export default function Hero() {
   return (
-    <section className="hero" id="home">
+    <section className="hero" aria-labelledby="hero-title">
       <div className="hero__main-container">
         <div className="hero__container">
           <h1 className="hero__title">Fair, Affordable, Effective.</h1>

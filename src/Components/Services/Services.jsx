@@ -60,7 +60,7 @@ export default function Services() {
     <section className="services" id="services">
       <div className="services__header">
         <div className="services__intro">
-          <h3 className="services__title">What We Offer</h3>
+          <h2 className="services__title">What We Offer</h2>
           <p className="services__description">
             We provide tailored legal solutions to meet your unique needs,
             ensuring your rights are protected and justice is served.

@@ -11,7 +11,8 @@ import LocationIcon from "../../Assets/Icon/LocationIcon.svg";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" role="contentinfo">
+      {" "}
       <div className="footer__container">
         <div className="footer__about">
           <div className="footer__logo">
@@ -87,24 +88,23 @@ export default function Footer() {
 
           <ul className="footer__service-list">
             <li>
-              <Link to="/services/litigation">Property Law</Link>
+              <a href="/#services">Property Law</a>
             </li>
             <li>
-              <Link to="/services/litigation">Business Law</Link>
+              <a href="/#services">Business Law</a>
             </li>
             <li>
-              <Link to="/services/litigation">Personal Injury</Link>
+              <a href="/#services">Personal Injury</a>
             </li>
             <li>
-              <Link to="/services/litigation">Immigration Law</Link>
+              <a href="/#services">Immigration Law</a>
             </li>
             <li>
-              <Link to="/services/litigation">Family Law</Link>
+              <a href="/#services">Family Law</a>
             </li>
           </ul>
         </div>
       </div>
-
       <div className="footer__bottom">
         <p>
           ©2025 FULAW PLLC <br />

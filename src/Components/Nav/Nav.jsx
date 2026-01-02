@@ -27,7 +27,11 @@ export default function Nav() {
   };
 
   return (
-    <nav className="nav-background">
+    <nav
+      className="nav-background"
+      role="navigation"
+      aria-label="Main navigation"
+    >
       <div className="nav">
         <a href="/" className="nav__link">
           <img

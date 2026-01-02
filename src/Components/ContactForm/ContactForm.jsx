@@ -2,7 +2,7 @@ import "./ContactForm.scss";
 import { useState } from "react";
 
 export default function ContactForm({ pageClass }) {
-  const functionURL = "https://us-central1-faariskuddin.cloudfunctions.net"; // updated project URL
+  const functionURL = "https://us-central1-faariskuddin.cloudfunctions.net";
 
   const [formCompletion, setFormCompletion] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -65,14 +65,19 @@ export default function ContactForm({ pageClass }) {
           <h2 className="contact-form__title">Schedule Free Consultation</h2>
 
           {fields.map((field) => (
-            <input
-              key={field.name}
-              name={field.name}
-              value={form[field.name]}
-              onChange={handleChange}
-              placeholder={field.placeholder}
-              className="contact-form__input"
-            />
+            <div className="contact-form__container--second">
+              <label htmlFor={field.name} className="sr-only">
+                {field.name}
+              </label>
+              <input
+                key={field.name}
+                name={field.name}
+                value={form[field.name]}
+                onChange={handleChange}
+                placeholder={field.placeholder}
+                className="contact-form__input"
+              />
+            </div>
           ))}
 
           <textarea
