@@ -8,7 +8,7 @@ export default function Contact() {
     "https://us-central1-YOUR_PROJECT.cloudfunctions.net";
 
   return (
-    <div className="contact">
+    <div className="contact" id="main-content">
       <Nav />
       <main className="contact__background">
         <section className="contact__info">

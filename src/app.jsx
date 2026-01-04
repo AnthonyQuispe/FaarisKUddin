@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Landing from "./Pages/Landing/Landing";
 import Contact from "./Pages/Contact/Contact";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import Terms from "./Pages/Terms/Term";
 import { Routes, Route } from "react-router-dom";
 import "./Styles/_global.scss";
 
@@ -26,6 +28,8 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
   );
 }

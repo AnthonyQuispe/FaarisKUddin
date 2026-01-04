@@ -9,7 +9,7 @@ import Footer from "../../Components/Footer/Footer";
 
 export default function Landing() {
   return (
-    <div className="landing">
+    <div className="landing" id="main-content">
       <Nav />
       <Hero />
       <Services />
