@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.453a7857.css",
-    "main.js": "/static/js/main.2db2d5fc.js",
+    "main.js": "/static/js/main.1d166fd5.js",
+    "static/media/Teamwork.png": "/static/media/Teamwork.d977c585d717d4e3e853.png",
     "static/media/HeroBackground.png": "/static/media/HeroBackground.08b9fd77e83c079d434b.png",
     "static/media/BackgroundImage.png": "/static/media/BackgroundImage.21077ebfe7c0f3905d51.png",
     "static/media/FAQ.png": "/static/media/FAQ.a8c8d4a072f1a540beff.png",
-    "static/media/Teamwork.png": "/static/media/Teamwork.06dc6724addfbb5c3072.png",
     "static/media/FaarisUddin.jpeg": "/static/media/FaarisUddin.e1c908904641587e7e72.jpeg",
     "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
     "static/media/InriaSerif-Light.ttf": "/static/media/InriaSerif-Light.60d7a6a1b1a84d2f5cf9.ttf",
@@ -21,10 +21,10 @@
     "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.9663d0b4609a21bc4b77ed08956476ec.svg",
     "static/media/XIcon.svg": "/static/media/XIcon.dcc4a7f597f1ded99d899187b61efd5c.svg",
     "main.453a7857.css.map": "/static/css/main.453a7857.css.map",
-    "main.2db2d5fc.js.map": "/static/js/main.2db2d5fc.js.map"
+    "main.1d166fd5.js.map": "/static/js/main.1d166fd5.js.map"
   },
   "entrypoints": [
     "static/css/main.453a7857.css",
-    "static/js/main.2db2d5fc.js"
+    "static/js/main.1d166fd5.js"
   ]
 }
