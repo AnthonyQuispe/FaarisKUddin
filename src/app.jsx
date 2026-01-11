@@ -1,35 +1,20 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Landing from "./Pages/Landing/Landing";
 import Contact from "./Pages/Contact/Contact";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import Terms from "./Pages/Terms/Term";
+import NotFound from "./Pages/NotFound/NotFound";
 import { Routes, Route } from "react-router-dom";
 import "./Styles/_global.scss";
 
 export default function App() {
-  useEffect(() => {
-    const sendHeight = () => {
-      const height = document.documentElement.scrollHeight;
-      window.parent.postMessage({ type: "setHeight", height }, "*");
-    };
-
-    // Send height initially
-    sendHeight();
-
-    // Optional: update height on resize
-    window.addEventListener("resize", sendHeight);
-
-    return () => {
-      window.removeEventListener("resize", sendHeight);
-    };
-  }, []);
-
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/terms" element={<Terms />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
