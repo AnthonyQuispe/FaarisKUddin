@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.453a7857.css",
-    "main.js": "/static/js/main.d4ff03a8.js",
+    "main.css": "/static/css/main.5d980ac5.css",
+    "main.js": "/static/js/main.b6995a46.js",
     "static/media/Teamwork.png": "/static/media/Teamwork.d977c585d717d4e3e853.png",
     "static/media/HeroBackground.png": "/static/media/HeroBackground.08b9fd77e83c079d434b.png",
     "static/media/BackgroundImage.png": "/static/media/BackgroundImage.21077ebfe7c0f3905d51.png",
     "static/media/FAQ.png": "/static/media/FAQ.a8c8d4a072f1a540beff.png",
-    "static/media/FaarisUddin.jpeg": "/static/media/FaarisUddin.e1c908904641587e7e72.jpeg",
+    "static/media/FaarisUddin.jpeg": "/static/media/FaarisUddin.d7c5d6ac06e8c192b9a0.jpeg",
     "static/media/InriaSerif-Regular.ttf": "/static/media/InriaSerif-Regular.f43b3e7fe0caf2aaeade.ttf",
     "static/media/InriaSerif-Light.ttf": "/static/media/InriaSerif-Light.60d7a6a1b1a84d2f5cf9.ttf",
     "static/media/InriaSerif-Bold.ttf": "/static/media/InriaSerif-Bold.6e940239a53050039654.ttf",
@@ -20,11 +20,11 @@
     "static/media/LocationIcon.svg": "/static/media/LocationIcon.027305e1b80d7a7b0f06ad594cd07164.svg",
     "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.9663d0b4609a21bc4b77ed08956476ec.svg",
     "static/media/XIcon.svg": "/static/media/XIcon.dcc4a7f597f1ded99d899187b61efd5c.svg",
-    "main.453a7857.css.map": "/static/css/main.453a7857.css.map",
-    "main.d4ff03a8.js.map": "/static/js/main.d4ff03a8.js.map"
+    "main.5d980ac5.css.map": "/static/css/main.5d980ac5.css.map",
+    "main.b6995a46.js.map": "/static/js/main.b6995a46.js.map"
   },
   "entrypoints": [
-    "static/css/main.453a7857.css",
-    "static/js/main.d4ff03a8.js"
+    "static/css/main.5d980ac5.css",
+    "static/js/main.b6995a46.js"
   ]
 }
