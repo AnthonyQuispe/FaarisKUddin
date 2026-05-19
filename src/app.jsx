@@ -6,7 +6,7 @@ import Terms from "./Pages/Terms/Term";
 import NotFound from "./Pages/NotFound/NotFound";
 import { Routes, Route } from "react-router-dom";
 import "./Styles/_global.scss";
-
+import QRRedirect from "./Pages/QRRedirect/QRRedirect";
 export default function App() {
   return (
     <Routes>
@@ -14,6 +14,7 @@ export default function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/terms" element={<Terms />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/qr/:id" element={<QRRedirect />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
